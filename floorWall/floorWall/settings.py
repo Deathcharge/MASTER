@@ -26,7 +26,7 @@ SECRET_KEY = '#9=5=5l&j=u*rbee1fa1##3hlgdwt!hyv5f1w+xul3@y2a55x2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['45.56.90.194']
 
 # Application definition
 
@@ -93,7 +93,7 @@ DATABASES = {
         'NAME': 'blogdb',
         'USER': 'award',
         'PASSWORD': 'Monkfunk1',
-        'HOST': '45.56.90.194',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
