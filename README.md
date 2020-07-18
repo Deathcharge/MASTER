@@ -1,4 +1,4 @@
-To run the application unzip django.zip and run Django\Scripts\activate.bat from your terminal to start the Django Virtual environment. If this works you should see (django) in your terminal.
+To run the application extract django.zip and run Django\Scripts\activate.bat from your terminal to start the Django Virtual environment. If this works you should see (django) in your terminal.
 
 For more on virtual enviroments use:
 https://tutorial.djangogirls.org/en/django_installation/
