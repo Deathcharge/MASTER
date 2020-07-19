@@ -1,4 +1,4 @@
-{% extends "base.html" %} 
+{% extends "base.html" %}
 {% block content %}
 <style>
     body {
@@ -6,11 +6,11 @@
         font-size: 18px;
         background-color: #fdfdfd;
     }
-    
+
     .head_text {
         color: white;
     }
-    
+
     .card {
         box-shadow: 0 16px 48px #E3E7EB;
     }
@@ -49,8 +49,8 @@
     </div>
 </div>
 {% if is_paginated %}
-  <nav aria-label="Page navigation conatiner"></nav>
-  <ul class="pagination justify-content-center">
+<nav aria-label="Page navigation conatiner"></nav>
+<ul class="pagination justify-content-center">
     {% if page_obj.has_previous %}
     <li><a href="?page={{ page_obj.previous_page_number }}" class="page-link">&laquo; PREV </a></li>
     {% endif %}
@@ -58,8 +58,8 @@
     <li><a href="?page={{ page_obj.next_page_number }}" class="page-link"> NEXT &raquo;</a></li>
 
     {% endif %}
-  </ul>
-  </nav>
+</ul>
+</nav>
 </div>
 {% endif %}
 {%endblock%}
