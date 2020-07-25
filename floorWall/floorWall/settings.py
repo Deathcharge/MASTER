@@ -24,7 +24,7 @@ TEMPLATES_DIRS = os.path.join(BASE_DIR,'templates')
 SECRET_KEY = '#9=5=5l&j=u*rbee1fa1##3hlgdwt!hyv5f1w+xul3@y2a55x2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['www.awarddev.com','awarddev.com']
 
