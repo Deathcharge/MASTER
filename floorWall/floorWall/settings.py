@@ -24,7 +24,7 @@ TEMPLATES_DIRS = os.path.join(BASE_DIR,'templates')
 SECRET_KEY = '#9=5=5l&j=u*rbee1fa1##3hlgdwt!hyv5f1w+xul3@y2a55x2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['www.awarddev.com','awarddev.com']
 
@@ -51,7 +51,7 @@ CRONJOBS = [
     ('0 0 1 * *', 'myapp.cron.other_cron_job', ['pos_arg1', 'pos_arg2'], {'verbose': 'key_arg'}),
 ]
 
-INSTALLED_APPS += ( 'django.contrib.sitemaps')
+INSTALLED_APPS += ( 'django.contrib.sitemaps','django_summernote')
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
