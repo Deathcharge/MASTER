@@ -39,9 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
-    'blog',
     'weather_or_not',
+    'blog',
     'bootstrap4',
     'crispy_forms',
     'django_crontab',
