@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     'blog',
-    'weather_or_not'
+    'weather_or_not',
     'bootstrap4',
     'crispy_forms',
     'django_crontab',
