@@ -8,3 +8,9 @@ class Geo(models.Model):
 
     class Meta: #show Geo Locations Geo Locations of geo
         verbose_name_plural = 'Geo Locations'
+
+    def get_absolute_url(self):
+        from django.urls import reverse
+
+        return reverse("weather", kwargs={"slug": str(self.slug)})
+    
