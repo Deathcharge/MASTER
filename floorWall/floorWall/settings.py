@@ -51,7 +51,7 @@ CRONJOBS = [
     ('0 0 1 * *', 'myapp.cron.other_cron_job', ['pos_arg1', 'pos_arg2'], {'verbose': 'key_arg'}),
 ]
 
-INSTALLED_APPS += ( 'django.contrib.sitemaps','django_summernote')
+INSTALLED_APPS += ( 'django.contrib.sitemaps')
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
