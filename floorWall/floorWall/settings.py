@@ -39,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
     'blog',
+    'weather_or_not'
     'bootstrap4',
     'crispy_forms',
     'django_crontab',
@@ -91,6 +93,14 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'blogdb',
+        'USER': 'award',
+        'PASSWORD': 'Monkfunk1',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    },
+    'weather': {
+        'NAME': 'daily_forcast',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'USER': 'award',
         'PASSWORD': 'Monkfunk1',
         'HOST': 'localhost',
