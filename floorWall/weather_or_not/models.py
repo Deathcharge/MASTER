@@ -12,5 +12,5 @@ class Geo(models.Model):
     def get_absolute_url(self):
         from django.urls import reverse
 
-        return reverse("weather", kwargs={"slug": str(self.slug)})
+        return reverse("weather_or_not", kwargs={"slug": str(self.slug)})
     
